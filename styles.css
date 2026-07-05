@@ -274,6 +274,15 @@ strong {
   min-height: clamp(22rem, 45vw, 34rem);
 }
 
+/* A real store photo dropped into .hero__image gets the same arch shape */
+.hero__image img {
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  object-fit: cover;
+  border-radius: 200px 200px 16px 16px;
+}
+
 .image-placeholder {
   height: 100%;
   min-height: inherit;
